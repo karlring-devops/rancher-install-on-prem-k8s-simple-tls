@@ -8,6 +8,8 @@ Requires existing Kubernetes Cluster, if no cluster:
    - set nodes to (1x) Master, (2x) nodes
    - CPU (2x) and MEM(4096 Gib) for each
 * run: setup script from this repo.
+* Kubernetes Dashboard (if you want): https://github.com/karlring-devops/kubernetes-dashboard
+* Kubernetes simple tools (if you want): https://github.com/karlring-devops/.kprofile
 
 
 Reference: https://rancher.com/docs/rancher/v2.0-v2.4/en/installation/install-rancher-on-k8s/
