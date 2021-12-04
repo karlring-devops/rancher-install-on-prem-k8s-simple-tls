@@ -66,7 +66,18 @@ function rancher_get_demo(){
     echo "[Rancher Url]: -> ${RANCHER_DEMO_URL}"
 }
 
+function nextsteps(){
+    printf '
 
+    Next Steps - Rancher
+
+    • Load Balancer Setup
+    • Istio Ingress
+    • Monitoring and Logging
+    • LongHorn Storage
+    • CLI Authentication -> https://rancher.com/docs/rancher/v2.0-v2.4/en/user-settings/api-keys/
+    '
+}
 __main__(){
     [ ! `which helm` ] && helm_install
     setup_local_kubeconf
